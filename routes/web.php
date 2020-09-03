@@ -13,9 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any}', function () {
-    return redirect('/');
-});
+// Route::get('/{any?}', function () {
+//     return view('/index');
+// });
+
+Route::get('/your-home', fn() => view('hr.index'));
+Route::get('/lead-generation', fn() => view('hr.lead-generate.index'));
+Route::get('/lead-generation/create', fn() => view('hr.lead-generate.create'));
 
 Auth::routes();
 

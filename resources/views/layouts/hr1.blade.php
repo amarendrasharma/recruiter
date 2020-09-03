@@ -51,7 +51,7 @@
                                     <line x1="4" y1="19" x2="20" y2="19" />
                                     <polyline points="4 15 8 9 12 11 16 6 20 10" />
                                 </svg>
-                                Analytics
+                                Lead Generate
                             </a>
                         </li>
 
