@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/your-home', fn() => view('hr.index'));
 Route::get('/lead-generation', fn() => view('hr.lead-generate.index'));
+Route::post('/lead-generation',"LeadGenerateController@store");
 Route::get('/lead-generation/create', fn() => view('hr.lead-generate.create'));
 
 Auth::routes();
